@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: npm test -- --reporter=basic --no-watch
+        run: npm run test:ci
 
       - name: Build
         run: npm run build
